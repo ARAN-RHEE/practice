@@ -1,6 +1,6 @@
 package step03;
 
-public class AccurayExample2 {
+public class AccuracyExample2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
