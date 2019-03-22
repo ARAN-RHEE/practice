@@ -12,13 +12,8 @@ public class BankApplication {
 	
 
 	public static void main(String[] args) {
-	//	String ano;
-	//	String owner;
-	//	int balance;
 		
 		
-		//Account2 access = new Account2(Stirng ano, String owner, int balance);   
-		// Q1. getter setter 메소드 접근하려고 선언.. 
 		boolean run = true;
 		
 		while(run) {
@@ -53,23 +48,20 @@ public class BankApplication {
 		System.out.println("--------");
 		
 		System.out.println("계좌 번호 : "); 
-		String ano = scanner.nextLine(); // 값을 입력하기 위해 선언 
+		String ano = scanner.next(); // 값을 입력하기 위해 선언 
 		
 		System.out.println("계좌주 : ");
-		String owner = scanner.nextLine();  // Q2. 왜 계좌번호와 계좌주 입력이 동시에 실행될까요..? 
-		
-	//	if(ano!=null) {
-	//		System.out.println("계좌주 : ");
-	//	}
-	//	String owner = scanner.nextLine();
-		
+		String owner = scanner.next();  // Q2. 왜 계좌번호와 계좌주 입력이 동시에 실행될까요..? nextLine -> next로 해결  
+
 		System.out.println("초기입금액");
 		int balance = scanner.nextInt();
 		
 		Account2 ac = new Account2(ano, owner, balance);
 		int arrayNum = 0; // Q3. 가장 처음에 입력할때는 당연히 인덱스가 0번이어야 하는게 맞지만, 
 		// 계좌를 추가로 입력하면 그 다음 순번에 입력되어야 하는데.. arrayNum 초기값을 어디서 선언해야하는건지..? 
-		accountArray[arrayNum] = ac; // 변수 ac에 담긴 Account2 객체(계좌번호, 계좌주, 잔액)를 배열에 넣어주고 
+		accountArray[arrayNum] = ac; // ac.setAno(ano);
+		// 이미 담겨 있기 때문에 바로 배열에 넣어주면 됨. 
+		// 변수 ac에 담긴 Account2 객체(계좌번호, 계좌주, 잔액)를 배열에 넣어주고 
 		arrayNum++; // 인덱스 번호를 증가시켜 순차적으로 배열에 넣어준다. 
 		
 		System.out.println("계좌가 생성되었습니다.");
