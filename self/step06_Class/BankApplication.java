@@ -20,7 +20,6 @@ public class BankApplication {
 			System.out.println("선택 > ");
 
 			int selectNo = scanner.nextInt();
-
 			if (selectNo == 1) {
 				createAccount();
 			} else if (selectNo == 2) {
@@ -35,21 +34,16 @@ public class BankApplication {
 		}
 
 		System.out.println("프로그램 종료");
-
 	}
-
 	// 계좌 생성하기
 	private static void createAccount() {
 		System.out.println("--------");
 		System.out.println("계좌 생성");
 		System.out.println("--------");
-
 		System.out.println("계좌 번호 : ");
 		String ano = scanner.next(); // 값을 입력하기 위해 선언
-
 		System.out.println("계좌주 : ");
 		String owner = scanner.next(); // Q2. 왜 계좌번호와 계좌주 입력이 동시에 실행될까요..? nextLine -> next로 해결
-
 		System.out.println("초기입금액");
 		int balance = scanner.nextInt();
 

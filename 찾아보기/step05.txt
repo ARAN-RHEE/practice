@@ -1,4 +1,0 @@
-5-1. String a = "a";
-String a1 = "a";
-String a2 = new String("a");
-ÀÇ Â÷ÀÌ 
