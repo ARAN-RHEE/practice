@@ -1,4 +1,4 @@
-package stpe09.Anonymous;
+package step09.Anonymous;
 
 public class Anonymous2 {
 //필드 초기값으로 대입

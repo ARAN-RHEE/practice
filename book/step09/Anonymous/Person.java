@@ -1,4 +1,4 @@
-package stpe09.Anonymous;
+package step09.Anonymous;
 
 public class Person {
 	void wake() { // 메소드 선언
