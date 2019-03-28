@@ -1,4 +1,4 @@
-package step11_API.String;
+package step11_API.StringClass;
 
 import java.util.Objects;
 
