@@ -25,6 +25,7 @@ public class EqualsExample {
 		System.out.println("배열 번지 비교: " + original.equals(cloned2));
 		System.out.println("1차 배열 항목값 비교: " + Arrays.equals(original, cloned2));
 		System.out.println("중첩 배열 항목값 비교: " + Arrays.deepEquals(original, cloned2));
+		// 중첩 배열은 배열의 값을 비교 
 
 	}
 
