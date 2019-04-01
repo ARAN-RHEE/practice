@@ -1,6 +1,6 @@
 package step09_MultiClass;
 
-public class DringExample {
+public class DrinkExample {
 
 	public static void main(String[] args) {
 		//Drink.Coke dc = new Drink.Coke();
