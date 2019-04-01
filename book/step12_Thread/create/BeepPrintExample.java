@@ -1,8 +1,8 @@
-package step12_Thread;
+package step12_Thread.create;
 
-import java.awt.*;
+import java.awt.Toolkit;
 
-public class BeepPrintExample1 {
+public class BeepPrintExample {
 
 	public static void main(String[] args) {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
