@@ -11,9 +11,9 @@ public class FamilyExample2 {
 		
 		String familyName = scanner.nextLine();
 		
-		GrandParents gp = new GrandParents(familyName);
-		Parents parents = new Parents();
-		Child child = new Child();
+		GrandParents2 gp = new GrandParents2(familyName);
+		Parents2 parents = new Parents2();
+		Child2 child = new Child2();
 		
 		
 		// 왜 null???? 
