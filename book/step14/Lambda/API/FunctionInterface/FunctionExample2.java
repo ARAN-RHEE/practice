@@ -9,9 +9,10 @@ public class FunctionExample2 {
 			new Student("홍길동",90,96),
 			new Student("신용권",95,93)
 			);
-	public static double avg(ToIntFunction<Student> function) {
+	public static double avg(ToIntFunction<Student> function) { 
+		// ToIntFunction<Student> 인스턴스 대입
 		int sum=0;
-		for(Student student : list) {
+		for(Student student : list) { // 리스트 갯수만큼 실행됨 
 			sum += function.applyAsInt(student);
 		}
 		
